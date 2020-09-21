@@ -38,7 +38,7 @@ checkpoint genotype:
     input:
         csv = sample_info,
         ref = ref,
-        cnv_map = 'output/tmp/cnv_map.txt',
+        cnv_map = 'data/cnv_map.txt',
     output:
         cutoffs = 'output/010_genotypes/040_stats/ldepth.mean_cutoffs.csv',
         vcf = 'output/010_genotypes/calls.vcf.gz',
@@ -70,6 +70,6 @@ rule cnv_map:
     output:
         'output/tmp/cnv_map.txt'
     run:
-        with open(output, 'wt') as f:
-            f.writelines([f'{x}\t2\n' if 'pool' in x else f'{x}\t1\n'
-                          for x in all_samples])
+with open('data/cnv_map.txt', 'wt') as f:
+    f.writelines([f'{x}\t2\n' if 'pool' in x else f'{x}\t1\n'
+                  for x in all_samples])
