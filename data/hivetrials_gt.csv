@@ -51,13 +51,13 @@ HB10_drone_indiv2,TAATGCGC+AGGATAGG,data/K194/HB10_drone_indiv2_r1.fastq.gz,data
 HB12_drone_indiv4,TAATGCGC+AGGATAGG,data/K195/HB12_drone_indiv4_r1.fastq.gz,data/K195/HB12_drone_indiv4_r2.fastq.gz,1,plate22
 WK05_drone_indiv2,CGGCTATG+AGGATAGG,data/K194/WK05_drone_indiv2_r1.fastq.gz,data/K194/WK05_drone_indiv2_r2.fastq.gz,1,plate22
 WK14_drone_pool1,CGGCTATG+AGGATAGG,data/K195/WK14_drone_pool1_r1.fastq.gz,data/K195/WK14_drone_pool1_r2.fastq.gz,1,plate21
-TP10_drone_indiv2,TCCGCGAA+AGGATAGG,data/K195/TP10_drone_indiv2_r1.fastq.gz,data/K195/TP10_drone_indiv2_r2.fastq.gz,1,plate22
 HB04_drone_indiv2,AGCGATAG+AGGATAGG,data/K194/HB04_drone_indiv2_r1.fastq.gz,data/K194/HB04_drone_indiv2_r2.fastq.gz,1,plate22
 BP12_drone_indiv1,TCCGGAGA+TCAGAGCC,data/K194/BP12_drone_indiv1_r1.fastq.gz,data/K194/BP12_drone_indiv1_r2.fastq.gz,1,plate22
 TP18_queen_indiv1,CGCTCATT+TCAGAGCC,data/K195/TP18_queen_indiv1_r1.fastq.gz,data/K195/TP18_queen_indiv1_r2.fastq.gz,2,plate22
 HB15_drone_pool1,GAGATTCC+TCAGAGCC,data/K194/HB15_drone_pool1_r1.fastq.gz,data/K194/HB15_drone_pool1_r2.fastq.gz,1,plate21
 WK08_drone_pool1,GAGATTCC+TCAGAGCC,data/K195/WK08_drone_pool1_r1.fastq.gz,data/K195/WK08_drone_pool1_r2.fastq.gz,1,plate21
 BP01_queen_indiv1,ATTCAGAA+TCAGAGCC,data/K194/BP01_queen_indiv1_r1.fastq.gz,data/K194/BP01_queen_indiv1_r2.fastq.gz,2,plate22
+TP10_drone_pool1,ATTCAGAA+TCAGAGCC,data/K195/TP10_drone_pool1_r1.fastq.gz,data/K195/TP10_drone_pool1_r2.fastq.gz,1,plate21
 BP12_drone_indiv6,GAATTCGT+TCAGAGCC,data/K194/BP12_drone_indiv6_r1.fastq.gz,data/K194/BP12_drone_indiv6_r2.fastq.gz,1,plate22
 WK13_drone_pool1,GAATTCGT+TCAGAGCC,data/K195/WK13_drone_pool1_r1.fastq.gz,data/K195/WK13_drone_pool1_r2.fastq.gz,1,plate21
 BP04_drone_pool1,CTGAAGCT+TCAGAGCC,data/K194/BP04_drone_pool1_r1.fastq.gz,data/K194/BP04_drone_pool1_r2.fastq.gz,1,plate21
