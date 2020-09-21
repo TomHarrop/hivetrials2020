@@ -63,13 +63,3 @@ checkpoint genotype:
         '--csd '
         '--restart_times 1 '
         '&>> {log}'
-
-rule cnv_map:
-    input:
-        sample_info
-    output:
-        'output/tmp/cnv_map.txt'
-    run:
-with open('data/cnv_map.txt', 'wt') as f:
-    f.writelines([f'{x}\t2\n' if 'pool' in x else f'{x}\t1\n'
-                  for x in all_samples])
